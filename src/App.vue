@@ -2,6 +2,9 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <router-link to="/bmi">|BMI|</router-link>
+    <router-link to="/v-model">|V-model|</router-link>
+    <router-link to="/v-bind">|V-bind|</router-link>
   </div>
   <router-view/>
 </template>

@@ -1,11 +1,29 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@/views/Home.vue'
+import Bmi from '@/views/bmi.vue'
+import BmiVmodel from '@/views/v-model.vue'
+import BmiVbind from '@/views/v-bind.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/bmi',
+    name: 'Bmi',
+    component: Bmi
+  },
+  {
+    path: '/v-model',
+    name: 'BmiVmodel',
+    component: BmiVmodel
+  },
+  {
+    path: '/v-bind',
+    name: 'BmiVbind',
+    component: BmiVbind
   },
   {
     path: '/about',
